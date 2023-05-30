@@ -14,6 +14,6 @@ server
     });
   });
 
-server.listen(port, () => {
+server.listen({port:port}, () => {
   console.log(`server listening on port ${port}`);
 });
